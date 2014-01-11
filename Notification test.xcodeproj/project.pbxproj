@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27084F9A18371D1000467A3A /* kyle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27084F9918371D1000467A3A /* kyle.jpg */; };
 		27ED45651825CB4600B91F32 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27ED45641825CB4600B91F32 /* Cocoa.framework */; };
 		27ED456F1825CB4600B91F32 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27ED456D1825CB4600B91F32 /* InfoPlist.strings */; };
 		27ED45711825CB4600B91F32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27ED45701825CB4600B91F32 /* main.m */; };
@@ -31,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27084F9918371D1000467A3A /* kyle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kyle.jpg; sourceTree = "<group>"; };
 		27ED45611825CB4600B91F32 /* Notification test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Notification test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27ED45641825CB4600B91F32 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		27ED45671825CB4600B91F32 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -129,6 +131,7 @@
 			children = (
 				27ED456C1825CB4600B91F32 /* Notification test-Info.plist */,
 				27ED456D1825CB4600B91F32 /* InfoPlist.strings */,
+				27084F9918371D1000467A3A /* kyle.jpg */,
 				27ED45701825CB4600B91F32 /* main.m */,
 				27ED45721825CB4600B91F32 /* Notification test-Prefix.pch */,
 				27ED45731825CB4600B91F32 /* Credits.rtf */,
@@ -231,6 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				27ED456F1825CB4600B91F32 /* InfoPlist.strings in Resources */,
+				27084F9A18371D1000467A3A /* kyle.jpg in Resources */,
 				27ED457D1825CB4600B91F32 /* Images.xcassets in Resources */,
 				27ED45751825CB4600B91F32 /* Credits.rtf in Resources */,
 				27ED457B1825CB4600B91F32 /* MainMenu.xib in Resources */,
@@ -464,6 +468,7 @@
 				27ED45941825CB4700B91F32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27ED45951825CB4700B91F32 /* Build configuration list for PBXNativeTarget "Notification testTests" */ = {
 			isa = XCConfigurationList;
@@ -472,6 +477,7 @@
 				27ED45971825CB4700B91F32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
